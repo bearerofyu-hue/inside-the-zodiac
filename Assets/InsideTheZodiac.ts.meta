@@ -1,0 +1,49 @@
+- !<AssetImportMetadata/cf057ed4-6440-4952-bd0b-5dc3efd38e61>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> a10dc4e8-1578-4b2e-a590-0c0b38e6597f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> a10dc4e8-1578-4b2e-a590-0c0b38e6597f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 4a1b3631-b90e-4200-8bc4-7c60a85612fc
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/4a1b3631-b90e-4200-8bc4-7c60a85612fc>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: f71226e4-7b40-4a51-bb29-4fa8edb7e460
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    chartCamera: false
+    shellMaterial: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - chartCamera: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      shellMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject chartCamera
+    - // @input Asset.Material shellMaterial
